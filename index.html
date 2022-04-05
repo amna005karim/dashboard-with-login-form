@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> code.org</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light  ">
+            <a class="navbar-brand" href="https://code.org/"><img src="images/145.png" alt=""  style="width: 50px;"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link menu " href="#" style="color: #fff;font-size: 20px; "> Learn <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu" href="#"  style="color: #fff;font-size: 20px; "> Teach</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu" href="#" style="color: #fff;font-size: 20px; "> Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu" href="#" style="color: #fff;font-size: 20px; "> Stats</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu" href="#" style="color: #fff;font-size: 20px; ">Help Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu" href="#" style="color: #fff;font-size: 20px; "> About</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <i class="fa fa-question-circle"></i>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <!-- have an account section -->
+    <div class="container">
+        <h2 class="heading mt-5">Have an account already? Sign in</h2>
+         <div class="row">
+             <div class="col-md-4 offset-4 col-sm-6 col-xs-6">
+                <p id="msg"></p>
+                    <div class="form-group mt-5">
+                        <label for="exampleInputEmail1"  >Email or username</label>
+                        <input type="email" class="form-control" id="email"  required="required">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control"   id="password" required="required">
+                    </div>
+                    <a href="#" style="text-decoration: none;">
+                        <h6 class="forget mt-4"><b>forget your password ?</b></h6>
+                    </a>
+                    <button type="button" class="btn   btn-lg btn-block" onclick="getvalue()"><b>Signup </b></button>
+                    <a href="#" style="text-decoration: none;">
+                        <h6 class="forget mt-5"><b>Haven't joined yet?</b></h6>
+                    </a>
+                 <a href="https://studio.code.org/users/sign_up" class="create"><button type="button" class="btn1   btn-lg btn-block"><b> Create an account </b></button></a>
+        
+        
+                
+             </div>
+         </div>
+    </div>
+    <!-- footer -->
+     <footer class=" footer11 ">
+         <div class="container">
+            <div class="row">
+                <div class="col-md-2 mt-4">
+                    <a href="https://code.org/privacy" class="policy ">Privacy Policy  </a> <br>
+                    <a href="https://code.org/privacy" class="policy2 "> Terms  </a>
+                </div>
+                <div class="col-md-3 mt-4">
+                    <a href="https://code.org/translate" class="policy1 "> Volunteer to translate our content     </a>
+                </div>
+                <div class="col-md-2 mt-4">
+                    <a href="https://support.code.org/hc/en-us" class="policy2 "> Help and support    </a>
+                </div>
+                <div class="col-md-2 mt-4">
+                    <a href="https://store.code.org/" class="policy2 "> Store   </a>
+                </div>
+                <div class="col-md-2 mt-4">
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          English
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                          <button class="dropdown-item" type="button">Spanish</button>
+                          <button class="dropdown-item" type="button"> Chinese</button>
+                          <button class="dropdown-item" type="button"> Arabic</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 mt-3">
+                        <p class="lastpara">
+                            Engineers from Amazon, Google, and Microsoft helped create these materials.
+                            Minecraft™ © 2022 Microsoft. All Rights Reserved. Star Wars™ © 2022 Disney and Lucasfilm. All Rights Reserved. Frozen™ © 2022 Disney. All Rights Reserved. Ice Age™ © 2022 20th Century Fox. All Rights Reserved. Angry Birds™ © 2009-2022 Rovio Entertainment Ltd. All Rights Reserved. Plants vs. Zombies™ © 2022 Electronic Arts Inc. All Rights Reserved.
+                            Built on GitHub from Microsoft</p>
+                            <a href="https://aws.amazon.com/what-is-cloud-computing/" class="powered"><p>Powered by <b>aws</b></p></a>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+     </footer>
+
+     <script src="js/main.js"></script>
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

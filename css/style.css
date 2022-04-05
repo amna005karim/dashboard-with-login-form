@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-light{
+    background-color: #00adbc;
+}
+ .form-inline{
+     font-size: 35px;
+     margin-left: auto;
+     margin-right: 60px;
+ }
+ .fa-question-circle{
+     color: #fff;
+ }
+ .heading{
+     color: #7665a0;
+     font-size: 35px;
+     text-align: center;
+ }
+ 
+  
+  .forget{
+      text-align: center;
+      color: #08c;
+      font-family: Georgia, serif;
+  }
+  .btn{
+      background-color: #ffa400;
+      border: 1px solid #ffa400;
+      color: #fff;
+  }
+  .btn:hover{
+   box-shadow:  rgba(0, 0, 0, 0.1) 0px 7px 29px 0px;
+
+}
+  .btn1{
+    background-color: #049cdb;
+    border: 1px solid #049cdb;
+    color: #fff;
+}
+.btn1:hover{
+    box-shadow:  rgba(0, 0, 0, 0.1) 0px 7px 29px 0px;
+ }
+ .footer11{
+     background-color: #7665a0;
+     
+     width: 100%;
+     margin-top: 9%;
+     opacity: 1;
+ }
+ .policy{
+     color: #ffa400;
+     text-decoration: none ;
+     font-size: 13px;
+     
+ }
+ .policy:hover{
+    color: #ffa400; 
+}
+.policy1{
+    color: #ffffff;
+    text-decoration: none ;
+    font-size: 13px;
+    
+}
+.policy1:hover{
+    color: #ffffff; 
+}
+.policy2{
+    color: #ffffff;
+    text-decoration: none ;
+    font-size: 13px;
+    
+}
+.policy2:hover{
+    color: #ffffff; 
+}
+.policy3{
+    color: #ffffff;
+    text-decoration: none ;
+    font-size: 13px;
+    
+}
+.policy3:hover{
+    color: #ffffff; 
+}
+.lastpara{
+    color: rgb(204, 204, 204);
+}
+.powered{
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+    font-size: 20px;
+}
+.powered:hover{
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+    
+}
+.create:hover{
+    text-decoration: none;
+}
+.menu{
+    border-bottom: 3px solid transparent;
+    }
+.menu:hover{
+border-bottom: 3px solid #ffa400;
+}

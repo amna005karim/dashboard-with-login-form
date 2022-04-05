@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-light{
+    background-color: #00adbc;
+}
+.icon{
+    font-size: 30px;
+}
+.fa-question-circle{
+    color: #fff;
+    font-size: px;   
+}
+.btn-group{
+    padding: 1%;
+}
+.btn{
+    background-color: #00adbc;
+    outline: 2px solid #fff;
+    color: #fff;
+}
+.btn:hover{
+    background-color: #00adbc;
+    outline: 2px solid #fff;
+    color: #fff;
+}
+.menu{
+    border-bottom: 3px solid transparent;
+    }
+.menu:hover{
+border-bottom: 3px solid #ffa400;
+}
+.dashboardimages{
+    background-image: url(../images/2.jpg);
+    width: 100%;
+    height: 210px;
+}
+.heading{
+    color: #fff;
+    padding: 7%;
+}
+.div-learn{
+    background-color: #00adbc;
+   
+}
+.computer{
+    color: #fff;
+}
+.forstudent{
+    font-size: 16px;
+    color: rgb(247, 234, 234);
+}
+.my-courses{
+    color: rgb(91, 103, 112);
+    font-size: 24px;
+}
+ .card-header{
+     background-image: url(../images/3.png);
+ }
+ .express-courses{
+     color: rgb(212, 212, 212);
+ }
+  .btn11{
+      background-color: #ffa400;
+      color: #fff;
+      font-size: 18px;
+      border: 1px solid #ffa400;
+  }
+  .title{
+      color: #00adbc;
+      font-size: 26px;
+  }
+  .nameproject{
+   color:  rgb(189, 189, 189);
+  }
+  
+  .view{
+    float: right;
+    font-size: 17px;
+    color: #00adbc;
+  }
+   
+  .footer11{
+    background-color: #7665a0;
+    
+    width: 100%;
+    margin-top: 9%;
+    opacity: 1;
+}
+.policy{
+    color: #ffa400;
+    text-decoration: none ;
+    font-size: 13px;
+    
+}
+.policy:hover{
+   color: #ffa400; 
+}
+.policy1{
+   color: #ffffff;
+   text-decoration: none ;
+   font-size: 13px;
+   
+}
+.policy1:hover{
+   color: #ffffff; 
+}
+.policy2{
+   color: #ffffff;
+   text-decoration: none ;
+   font-size: 13px;
+   
+}
+.policy2:hover{
+   color: #ffffff; 
+}
+.policy3{
+   color: #ffffff;
+   text-decoration: none ;
+   font-size: 13px;
+   
+}
+.policy3:hover{
+   color: #ffffff; 
+}
+.lastpara{
+   color: rgb(204, 204, 204);
+}
+.powered{
+   text-decoration: none;
+   color: rgb(204, 204, 204);
+   font-size: 20px;
+}
+.powered:hover{
+   text-decoration: none;
+   color: rgb(204, 204, 204);
+   
+}
+.create:hover{
+   text-decoration: none;
+}
+.menu{
+   border-bottom: 3px solid transparent;
+   }
+.menu:hover{
+border-bottom: 3px solid #ffa400;
+}
+  
